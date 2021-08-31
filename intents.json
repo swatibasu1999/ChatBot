@@ -1,0 +1,153 @@
+{
+  "intents" : [
+    {"tag" : "greetings",
+    "patterns" : ["hii", "hello","hey","what's up?", "hello IGDTUW"],
+    "responses" : ["Hello, Welcome to IGDTUW ChatBot!","Hey! IGDTUW ChatBot Welcomes you."]
+  },
+  
+    {"tag" : "dept",
+    "patterns" : ["how many departments are there in IGDTUW?", "No. of Depts.?","Dept. count?","Departments"],
+    "responses" : ["8","there are 8 depts. in IGDTUW","8 departments are there in IGDTUW"]
+  },
+  
+    {"tag" : "phd",
+    "patterns" : ["how many courses are there in PhD at IGDTUW?", "No. of PhD courses?","PhD Courses count?","PhD Courses"],
+    "responses" : ["7","there are 7 PhD courses in IGDTUW","7 PhD courses are there in IGDTUW"]
+  },
+  
+    {"tag" : "phd-branch",
+    "patterns" : ["what branches are there in PhD?", "PhD branches?","branches in PhD","PhD branch names"],
+    "responses" : ["ECE,CSE,Computer applications,IT,electrical,MAE,Applied Sc.& Eng","CSE,Computer applications,IT,ECE,electrical,MAE,Applied Sc.& Eng"]
+  },
+  
+    {"tag" : "ug-course",
+    "patterns" : ["what courses are there in UG?","Courses in UG","UG Courses"],
+    "responses" : ["BTech,BArch,BBA","B.B.A.,B.Tech,B.Arch."]
+  },
+  
+    {"tag" : "btech-branch",
+    "patterns" : ["what branches are there in Btech?", "BTech branches?","branches in BTech","BTech branch names"],
+    "responses" : ["CSE, CSE(AI), IT, ECE, MAE","C.S.E., C.S.E.(A.I.), I.T., E.C.E., M.A.E."]
+  },
+  
+    {"tag" : "dual-degree",
+    "patterns" : ["Is there ant Dual-Degree in IGDTUW?", "Dual Degree","dual degree course","dual degree"],
+    "responses" : ["BTech(MAE)+MBA","1 dual degree- Btech MAE + MBA","Yes! 1 dual degree course is there i.e.Btech MAE+MBA"]
+  },
+   
+    {"tag" : "pg-course",
+    "patterns" : ["what courses are there in PG?","Courses in PG","PG Courses"],
+    "responses" : ["MCA,MTech,MPlan,MBA","M.C.A.,M.Tech.,M.Plan.,M.B.A."]
+  },
+  
+    {"tag" : "pg-branch",
+    "patterns" : ["what branches are there in Mtech?", "MTech branches?","branches in MTech","MTech branch names"],
+    "responses" : ["Info.security and mgmt,CSE(AI),VLSI,Robotics&Automation","Information Security and Mgmt., C.S.E.(A.I.),V.L.S.I.,Robotics&automation"]
+  },
+  
+    {"tag" : "dept-name",
+    "patterns" : ["what dept are there in IGDTUW?","Dept names","Departments"],
+    "responses" : ["Applied sciences and humanities,CSE,ECE,IT,Arch.&Planning,MAE,Mgmt,Artificial Intelligence & Data Science","Applied sciences and humanities, CSE,ECE,IT,arch&planning,MAE,mgmt,AI&DS"]
+  },
+  
+    {"tag" : "about",
+    "patterns" : ["IGDTUW specification","About IGDTUW"],
+    "responses" : ["Established by Govt. of Delhi vide Act 9 of 2012 & ISO 9001:2015 Certified University","Established by Delhi Govt. vide Act 9 of 2012 & ISO 9001:2015 Certified University"]
+  },
+  
+    {"tag" : "tpo",
+    "patterns" : ["What do you mean by TPO?", "Full form of TPO", "what is TPO?"],
+    "responses" : ["Full form of TPO is Training Placement Officer", "Training Placement Officer", "TPO is Training Placement Officer"]
+  },
+  
+    {"tag" : "tnp",
+    "patterns" : ["what do you mean by TNP?", "Full form of TNP", "what is TNP?"],
+    "responses" : ["Full form of TNP is Training & Placement Cell", "Training & Placement Cell", "TNP is Training & Placement Cell"]
+  },
+  
+    {"tag" : "tpo-name",
+    "patterns" : ["Who is the TPO in IGDTUW?", "TPO in IGDTUW?", "Training Placement Officer in IGDTUW?"],
+    "responses" : ["Prof. Nathi Ram Chauhan, TPO(MAE) and Prof. Jasdeep Kaur Dhanoa, TPO(CSE, ECE, IT)"]
+  },
+  
+    {"tag" : "about",
+    "patterns" : ["IGDTUW specification","About IGDTUW"],
+    "responses" : ["Established by Govt. of Delhi vide Act 9 of 2012 & ISO 9001:2015 Certified University","Established by Delhi Govt. vide Act 9 of 2012 & ISO 9001:2015 Certified University"]
+  },
+  
+    {"tag" : "companies",
+    "patterns" : ["What are the companies visiting in campus?", "Companies that visits IGDTUW?", "Companies coming in campus?", "Which companies visits here", "Which companies visits IGDTUW"],
+    "responses" : ["Accenture, Adobe, Amazon, Cisco, Yamaha, Flipkart, Samsung, oracle etc and many more.", "Amazon, Cisco, Yamaha, Flipkart, Samsung, oracle, and many more", "Adobe, Amazon, Cisco, intuit, SAP labs and many more"]
+  },
+  
+    {"tag" : "tpo-contact",
+    "patterns" : ["How to contact the TPO of CSE/ECE/IT department?", "Conatct of TPO of CSE/ECE/IT?", "Contact details of TPO of CSE/ECE/IT department"],
+    "responses" : ["Prof. Jasdeep Kaur Dhanoa-011-23900216 or jasdeep@igdtuw.ac.inm or tpo@igdtuw.ac.in", "011-23900216 or jasdeep@igdtuw.ac.inm", "tpo@igdtuw.ac.in"]
+  },
+  
+    {"tag" : "tpo-contact",
+    "patterns" : ["how to contact the TPO of MAE departemnt?", "Conatct of TPO of MAE?", "Contact details of TPO of MAE department"],
+    "responses" : ["Prof. Nathi Ram Chauhan-011-23900232 or nrchauhan@igdtuw.ac.in or tnp@igdtuw.ac.in", "011-23900232 or nrchauhan@igdtuw.ac.in", "tnp@igdtuw.ac.in"]
+  },
+  
+    {"tag" : "statistics",
+    "patterns" : ["what are the placement statistics of last year?", "placement statistics of last year?", "placement statistics of recent years"],
+    "responses" : ["Please refer the brochure on the website https://www.igdtuw.ac.in/placements.php?id=7", "visit brochure on https://www.igdtuw.ac.in/placements.php?id=7", "visit brochure here https://www.igdtuw.ac.in/placements.php?id=71"]
+  },
+  
+    {"tag" : "internship-form",
+    "patterns" : ["where to find the internship form for Btech/MCA?", "internship form for both btech and MCA", "how to find internship form for both btech and MCA", "how to find internship form for Btech?", "how to find internship form for MCA", "where to find the internship form for MCA?", "where to find the internship form for Btech?"],
+    "responses" : ["Please refer the pdf on the website https://www.igdtuw.ac.in/placements.php", "visit here https://www.igdtuw.ac.in/placements.php", "download the form from https://www.igdtuw.ac.in/placements.php"]
+  },
+  
+    {"tag" : "career-option",
+    "patterns" : ["what are the career options for CSE/IT graduates?", "career options for CSE/IT graduates?", "Major options for CSE/IT graduates", "career options for CSE graduates?", "career options for IT graduates?"],
+    "responses" : ["Please refer the pdf on the website https://www.igdtuw.ac.in/placements.php", "visit pdf on website https://www.igdtuw.ac.in/placements.php", "visit here website https://www.igdtuw.ac.in/placements.php"]
+  },
+  
+    {"tag" : "achievement",
+    "patterns" : ["what are the career options for CSE/IT graduates?", "career options for CSE/IT graduates?", "Major options for CSE/IT graduates", "career options for CSE graduates?", "career options for IT graduates?"],
+    "responses" : ["Please refer the brochure on the website https://www.igdtuw.ac.in/placements.php?id=7", "visit https://www.igdtuw.ac.in/placements.php?id=7", "visit here https://www.igdtuw.ac.in/placements.php?id=7"]
+  },
+  
+    {"tag" : "activities",
+    "patterns" : ["extra-curricular activities at IGDTUW","co-curricular activities at IGDTUW"],
+    "responses" : ["Societies,Technical Societies,Clubs,Events","one can join Societies,Technical Societies,Clubs,Events"]
+  },
+  
+    {"tag" : "tech-societies",
+    "patterns" : ["Technical-societies at IGDTUW","which Technical-societies are at IGDTUW","Technical-societies"],
+    "responses" : ["ACM STUDENT CHAPTER,CSI Student Branch,IEEE Student Chapter,ASME Chapter,ENACTUS,ROBOLUTION,LEAN IN"]
+  },
+  
+    {"tag" : "societies",
+    "patterns" : ["societies at IGDTUW","which societies are at IGDTUW","societies"],
+    "responses" : ["Enactus,SAE ASME,Zena,Green Sphere society,Rotary Club,Synergy,Prekshya( Photography Society),Techno-Literati,Tarrannum,Hypnotics,Instinct"]
+  },
+  
+    {"tag" : "clubs",
+    "patterns" : ["clubs at IGDTUW","which clubs are at IGDTUW","clubs"],
+    "responses" : ["Rotary Club’s Theme,SAE Collegiate Club,Greensphere : The Eco club,Sports Club,Leaders for Tomorrow"]
+  },
+  
+    {"tag" : "events",
+    "patterns" : ["events in IGDTUW","which events held in IGDTUW","events"],
+    "responses" : ["IGNITE,Cultural fest Taarangana,Technical fest Innerve,Women safety activities"]
+  },
+  
+    {"tag" : "fest",
+    "patterns" : ["about taarangana","Taarangana","Taarangana details"],
+    "responses" : ["IGDTUW organizes a very vibrant cultural fest called Taarangana. Many cultural events including star night, dance competition, fashion competition, etc kept in this. Teams from outside universities participate in it."]
+  },
+  
+    {"tag" : "tech-fest",
+    "patterns" : ["about tech-fest","Innerve","innerve details","tech-fest","technical festival"],
+    "responses" : ["University also organizes a technical fest, called Innerve. It has many event that are technical in nature."]
+  },
+  
+    {"tag" : "ignite",
+    "patterns" : ["about ignite","IGNITE","IGNITE details","sports festival"],
+    "responses" : ["IGNITE is the annual sports meet of IGDTUW. Every year it is organized at a very large scale. Students from different colleges participate in it. It is organized at JLN Stadium and we invited eminent sports persons as jury."]
+  }
+]
+}
